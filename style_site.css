@@ -1,0 +1,813 @@
+body {
+    font-family: "Segoe UI", serif;
+    font-size: 1.5em;
+    padding: 1em;
+
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1em;
+}
+/* Titre du site */
+h1 {
+    color:whitesmoke;
+    font-size: 1em;
+}
+
+/* resultats de pages */
+h2 {
+    color:black;
+    font-size:1.5em;
+    font-weight: bold;
+    margin:0;
+}
+
+
+h3 {
+    /*souligner un truc*/
+    text-decoration: underline;
+    text-align: left;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5em;
+}
+
+h4 {
+    /* un espace */
+    color: rgba(0,0,0,0);
+}
+
+h5 {
+    /* texte de l'en-tête */
+    font-size: 3em;
+    color: white;
+    font-style: italic;
+    margin: auto;
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+mark {
+    /* surligner un truc*/
+    color: white;
+    background-color: black;
+
+}
+
+input[type=text],input[type=password],input[type=email],input[type=date],textarea,input[type=number]{
+    border-radius:0.6em 0.6em 0.6em 0.6em;
+    font-size:0.8em;
+}
+
+textarea{
+    padding-left:0.4em;
+}
+
+input[type=text],input[type=number]{
+    padding-left: 0.4em;
+    border: solid black 0.1em;
+}
+
+/*********** classe ************/
+
+
+/* background des pages "classiques" du site */
+.cover {
+    background: linear-gradient(55deg,  #d973ff 0, #955cff 25%, #4d42d4 50%, #00299e 90%, #00146f 100%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* background des pages de login et de register du site */
+.clogin {
+    background-image: url(arts/structure_site/tile_background_login.png);
+    background-repeat: repeat;
+    position: absolute;
+}
+
+
+/* boîte pouvant contenir du texte qu'on utilise pour le login et le register */
+.text_box {
+    margin:auto;
+    margin-left:19em;
+    margin-top: 5em;
+    padding:0.5em;
+    background: rgba(0,0,0,0.80);
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;
+}
+
+/* liseraie entourant la boîte de texte ci-dessus */
+.line {
+    margin:auto;
+    padding: 0.5em;
+    border-width:0.4em;
+    border-color:white;
+    border-style:solid;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+/* css pour placer la barre de recherche sur les pages */
+.barre_recherche{
+    position:absolute;
+    top:1.2em;
+    left:3.5em;
+    font-size:1.4em;
+}
+
+.barre_recherche input{
+    padding:0.1em 0.4em 0.1em 0.4em;
+    width:20em;
+}
+
+.barre_recherche button{
+    border-radius:0.6em 0.6em 0.6em 0.6em;
+    background-color:whitesmoke;
+    color:#0026FF;
+    border-style:solid;
+    border-color:#0026FF;
+    padding: 0.1em 1em 0.1em 1em;
+    font-size:0.8em;
+    margin-bottom:auto;
+}
+
+.barre_recherche button:hover{
+    background-color: RGBa(200,200,200,1);
+}
+
+
+
+
+
+/* liste d'amis toujours affichée sur les pages du site */
+.liste_amis{
+    position:fixed; /* On met en fixed pour qu'on puisse visualiser en continue la liste d'amis */
+    right:0.3em;
+    top:6.3em;
+    width:11.5em;
+    padding: 0.5em;
+    text-align: left;
+    line-height:150%;
+    font-size:1em;
+    background-color: rgba(255,255,255,0.69);
+    border-width:0.4em;
+    border-color:black;
+    border-style:solid;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+.liste_amis h2{
+    font-size:1em;
+}
+
+.liste_amis p{
+    font-size:0.7em;
+    line-height:1.3em;
+    color:black;
+    font-weight:bold;
+}
+
+.liste_amis a:link{
+    color:midnightblue;
+}
+
+.liste_amis a:visited{
+    color:midnightblue;
+}
+
+
+
+
+
+/* corps du texte pour toutes les pages*/
+
+/*l'espace pour mettre le texte*/
+.corps {
+    color:black;
+    font-size:0.8em;
+    padding:1em;
+    font-family: "Segoe UI",serif;
+    width:69em;
+    margin: auto;
+    margin-top: 5em;
+    background-color: rgba(255,255,255,0.69);
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+.demande_ami{
+    text-align: right;
+    margin-right: 2em;
+}
+
+.titre_page{
+    text-align:center;
+    color:black;
+    font-size:3em;
+}
+
+.corps img{
+    border: solid black 0.4em;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+.texte_corps{
+    margin:1em;
+}
+
+.titre_rubrique{
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+.nom_auteur{
+    text-align:right;
+    font-size:1em;
+    font-weight: bold;
+    font-style:italic;
+}
+/* rubrique entouré d'une ligne noire autour d'un texte: utilisé pour les mini critiques et les grandes critiques */
+.rubrique{
+    margin:0.5em;
+    padding: 0.5em;
+    border-width:0.4em;
+    border-color:black;
+    border-style:solid;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+li.rubrique{
+    width:20em;
+}
+
+.home{
+    list-style-type: none;
+    margin-top:1em;
+}
+
+.home li{
+    float:left;
+    top:1em;
+    position:relative;
+    background-color: rgba(255,255,255,0.69);
+}
+
+
+
+
+/* corps des pages pour les pages qui ne sont pas le home */
+
+.rubrique b{
+    color:grey;
+    font-style:italic;
+    margin-left:3em;
+}
+
+.rubrique i{
+    margin-left:2em;
+}
+
+a.crit_com{
+    margin-left:4em;
+}
+
+i.crit_com{
+    margin-left:4em;
+}
+
+.corps a:link {
+    color:midnightblue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.corps a:visited{
+    color:midnightblue;
+}
+
+.rubrique .right{
+    text-align:right;
+    position:relative;
+}
+
+.rubrique .note{
+    text-align:right;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+.rubrique .note.bad{
+    color:royalblue;
+}
+.rubrique .note.good{
+    color:orangered;
+}
+
+.rubrique select{
+    color:black;
+    border: solid black 0.1em;
+    background-color: lightblue;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+.rubrique textarea[name=content]{
+    resize : both;
+    min-width : 40%;
+    min-height : 10em;
+    max-width : 100%;
+}
+
+.rubrique textarea[name=description]{
+    resize :both;
+    min-width: 40%;
+    min-height: 5em;
+    max-width: 100%;
+}
+
+.center{
+    text-align:center;
+}
+
+/* id obsolète il a été remplacé par l'id #submit_corps */
+#submit_critique{
+    padding:0.2em;
+    width:4em;
+    text-align: center;
+    font-weight: bolder;
+    font-size:1em;
+    color:white;
+    border: thin dotted whitesmoke;
+    background-color: midnightblue;
+    border-radius:0.6em 0.6em 0.6em 0.6em;
+}
+
+
+/* les boutons de upvote */
+
+.menu_upvote{
+    margin:2em;
+}
+
+button.up_down{
+    border-radius:0.6em 0.6em 0.6em 0.6em;
+    background-color:rgba(0,0,0,0.20);
+    margin:0.2em;
+    font-weight: bolder;
+    color:black;
+    width:1.8em;
+    height:1.8em;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    border:none;
+    font-size:0.8em;
+}
+
+button.up_down.up{
+    background:orangered;
+    color:white;
+}
+
+button.up_down.down{
+    background:royalblue;
+    color:white;
+}
+
+/* le css lié aux commentaires */
+
+.commentaire .titre{
+    margin-left:2em;
+}
+.commentaire{
+    margin-left:2em;
+}
+
+.commentaire input{
+    height:1.5em;
+
+}
+
+.commentaire a:link{
+    font-weight: normal;
+    margin:0;
+}
+
+
+/* le css lié aux pages de jeux */
+
+.page_jeux{
+    margin-left:0;
+}
+
+.page_jeux .presentation_generale{
+    padding: 0.5em;
+    border-width:0.4em;
+    border-color:black;
+    border-style:solid;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+.page_jeux .titre{
+    font-weight:bold;
+    font-size:3em;
+    text-align:center;
+}
+
+.page_jeux .sous_titre{
+    font-weight:bold;
+    font-size:1.8em;
+    text-align:left;
+}
+
+.page_jeux table{
+    padding: 0.5em;
+    border-spacing:0.5em;
+    width:65em;
+    text-align: center;
+    border-color:black;
+    border-style:solid;
+    border-collapse: separate;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+.page_jeux table td{
+    text-align:center;
+}
+
+/* le header de chaque page */
+
+
+/*entête à mettre à chaque début de body*/
+#header {
+    text-align:right;
+    top:0;
+    right:0;
+    font-size:0.8em;
+    color:white;
+}
+
+#logo {
+    position:absolute;
+    right:0;
+    margin:auto;
+    top:0;
+    width:5em;
+}
+
+.bouton_log_sign {
+    border-radius:0.6em 0.6em 0.6em 0.6em;
+    background-color:#0026FF;
+    color:white;
+    padding: 0.1em 1em 0.1em 1em;
+    border:none;
+    font-size:0.8em;
+}
+
+.cover .bouton_log_sign:hover{
+    background-color:#001AAD;
+}
+
+
+.form_header{
+    position:absolute;
+    right:5em;
+}
+.white_text {
+    color:white;
+}
+
+.black_text {
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+    color: white;
+    text-decoration:none;
+}
+
+
+
+a:visited {
+    color: mediumslateblue;
+    text-decoration:none;
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted;
+}
+
+/* css du chat */
+
+#titre_conversation{
+    font-weight:bolder;
+    font-size:2em;
+
+}
+
+#submit_corps{
+    padding: 0.1em 1em 0.1em 1em;
+    border-radius:0.6em 0.6em 0.6em 0.6em;
+    background: linear-gradient(55deg,  #d973ff 0, #955cff 25%, #4d42d4 50%, #00299e 90%, #00146f 100%);
+    font-size:0.8em;
+    font-weight:bold;
+    color:white;
+    border:solid black 0.1em;
+}
+
+#submit_corps:hover{
+    background: linear-gradient(55deg, rgba(196,104,230,1) 0%, rgba(125,76,215,1) 25%, rgba(62,53,170,1) 50%, rgba(0,31,120,1) 90%, rgba(0,11,59,1) 100%);
+}
+
+
+/*CSS tiré du site :https://www.pierre-giraud.com/html-css-apprendre-coder-cours/creation-menu-deroulant/ utilisé pour le menu déroulant*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", serif;
+}
+
+nav{
+    margin:0;
+    padding:0;
+    border-radius:0.5em 0.5em 0.5em 0.5em;
+    background-color: white;
+    position: absolute;
+    left:1em;
+    top: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 0 solid transparent;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    padding: 0.2em 0.4em;
+}
+
+nav a:hover{
+    color:#0026FF;
+    border-bottom: 0.2em solid #0026FF;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: inline-block;
+    left:3.5em;
+    top:0;
+}
+.sous li{
+    float: none;
+    border:none;
+    background-color:white;
+    width: 20em;
+    text-align: left;
+}
+
+li .title{
+    text-decoration:underline;
+    font-weight:bold;
+    padding:0.5em;
+    width:20em;
+    color:black;
+    font-size:1em;
+}
+
+.sous a{
+    padding: 0.2em 0.5em;
+    color:black;
+    font-size:0.8em;
+    border-bottom: none;
+}
+.sous a:hover{
+    border: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+
+/* Les statistiques du site */
+
+#titre_stats{
+    font-size:2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.rubrique_graphique{
+    width:20em;
+    margin-top:0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    border-width:0.4em;
+    border-color:black;
+    border-style:solid;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+.titre_graph{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#max{
+    text-align: center;
+    font-weight: bold;
+}
+
+.background_graph_1{
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    background-color: white;
+    width: 20em;
+    height: 20em;
+    border-top: solid black 0.2em;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+    border-bottom-right-radius: 0.5em 0.5em;
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+.background_graph_1 .rectangle_stat{
+    background: linear-gradient(55deg,  #d973ff 0, #955cff 25%, #4d42d4 50%, #00299e 90%, #00146f 100%);
+    width:50%;
+    bottom:0;
+    border:solid black 0.1em;
+    text-align: center;
+    margin:auto;
+    color:white;
+    border-top-left-radius: 0.5em 0.5em;
+    border-top-right-radius: 0.5em 0.5em;
+}
+
+/* Ces classes sont là pour afficher les graphiques convenablement en faisant varier la taille des colonnes. */
+/* Ces lignes ont été générées automatiquement à l'aide du fichier generation_css.c */
+.background_graph_1 .rectangle_stat.taille0{height:0%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille1{height:1%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille2{height:2%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille3{height:3%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille4{height:4%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille5{height:5%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille6{height:6%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille7{height:7%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille8{height:8%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille9{height:9%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille10{height:10%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille11{height:11%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille12{height:12%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille13{height:13%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille14{height:14%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille15{height:15%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille16{height:16%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille17{height:17%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille18{height:18%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille19{height:19%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille20{height:20%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille21{height:21%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille22{height:22%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille23{height:23%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille24{height:24%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille25{height:25%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille26{height:26%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille27{height:27%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille28{height:28%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille29{height:29%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille30{height:30%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille31{height:31%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille32{height:32%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille33{height:33%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille34{height:34%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille35{height:35%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille36{height:36%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille37{height:37%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille38{height:38%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille39{height:39%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille40{height:40%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille41{height:41%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille42{height:42%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille43{height:43%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille44{height:44%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille45{height:45%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille46{height:46%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille47{height:47%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille48{height:48%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille49{height:49%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille50{height:50%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille51{height:51%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille52{height:52%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille53{height:53%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille54{height:54%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille55{height:55%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille56{height:56%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille57{height:57%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille58{height:58%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille59{height:59%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille60{height:60%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille61{height:61%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille62{height:62%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille63{height:63%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille64{height:64%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille65{height:65%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille66{height:66%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille67{height:67%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille68{height:68%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille69{height:69%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille70{height:70%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille71{height:71%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille72{height:72%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille73{height:73%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille74{height:74%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille75{height:75%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille76{height:76%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille77{height:77%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille78{height:78%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille79{height:79%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille80{height:80%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille81{height:81%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille82{height:82%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille83{height:83%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille84{height:84%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille85{height:85%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille86{height:86%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille87{height:87%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille88{height:88%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille89{height:89%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille90{height:90%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille91{height:91%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille92{height:92%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille93{height:93%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille94{height:94%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille95{height:95%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille96{height:96%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille97{height:97%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille98{height:98%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille99{height:99%; margin-bottom:0}
+.background_graph_1 .rectangle_stat.taille100{height:100%; margin-bottom:0}

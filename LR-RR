@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T10:54:09.189Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="nwtyhTmVyaDonk3AexxJ" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T10:56:24.920Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="9yW-PshM-UcVS7gFCKvX" version="17.2.2" type="github">
   <diagram id="nAScQeXFD25yLaw7iS-J" name="Page-1">
     <mxGraphModel dx="618" dy="304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -217,6 +217,18 @@
         </mxCell>
         <mxCell id="DmN6qdvnMfIH-s-aroul-54" value="4-r.patch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="860" y="450" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="DmN6qdvnMfIH-s-aroul-56" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="460" width="50" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DmN6qdvnMfIH-s-aroul-57" value="4 patchs à appliquer sur la branche R2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="458.25" width="60" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="DmN6qdvnMfIH-s-aroul-58" value="&lt;b&gt;R2&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="525" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DmN6qdvnMfIH-s-aroul-59" value="&lt;b&gt;R1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="860" y="405" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

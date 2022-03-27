@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T18:36:09.093Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.2.2" etag="Eb59OAj38gpF21inwnNF" type="github"><diagram id="6j7PuPZAlnZIB1-jqeVQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-27T20:53:00.457Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="qnUSem7Ew7v-WlA4g81L" version="17.2.2" type="github">
+  <diagram id="6j7PuPZAlnZIB1-jqeVQ" name="Page-1">
+    <mxGraphModel dx="1889" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z560oaZMh5rpSpAGHkSc-1" value="CINK SLIM NOIR" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/0/0/0000000534-2.png;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-2" value="CINK FIVE NOIR" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/0/0/0000000527-2.png;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-3" value="OZZY NOIR" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/0/0/0000000502-2.png;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-4" value="IGGY NOIR" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/0/0/0000000498-2.png;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-5" value="HIGHWAY" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/0/0/0000000465-2.png;" vertex="1" parent="1">
+          <mxGeometry x="700" y="290" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-6" value="BLOOM BLACK" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/0/0/0000000442-2.png;" vertex="1" parent="1">
+          <mxGeometry x="860" y="295" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-8" value="GETAWAY BLACK/GOLD" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/0/0/0000000382-2.png;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="295" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-9" value="RIDGE 4G" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/r/i/ridge_4g-2.png;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="295" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-10" value="HIGHWAY STAR" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/h/i/highway_star-2.jpg;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="295" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-11" value="UFEEL" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/u/f/ufeel_ecom-5.jpg;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="295" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-12" value="UPULSE" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/u/p/upulse-5.png;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="295" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-13" value="TOMMY2" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/t/o/tommy2-2.jpg;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="295" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-14" value="VIEW 32GO" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/x1000/17f82f742ffe127f42dca9de82fb58b1/v/i/view-5.png;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="295" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-19" value="VIEW2" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/wiko_files/view2/media/img/2-phone3.jpg;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="295" width="88" height="139.53" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-20" value="Y60" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://data.wikomobile.com/documents/template/y60/Y60-gold.png;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="278.52000000000004" width="99" height="156.48" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-21" value="VIEW3" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://data.wikomobile.com/documents/template/view3/2-phone-blue.jpg;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="283.54" width="92.38" height="146.46" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-22" value="Y80" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://data.wikomobile.com/documents/template/y80/Y80-Gold.png;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="286.43" width="89" height="140.66" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-23" value="POWER U10" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://data.wikomobile.com/documents/template/2021/power-u10/u10-1-min.png;" vertex="1" parent="1">
+          <mxGeometry x="2820" y="289.95" width="83" height="133.62" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-24" value="VIEW4" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://data.wikomobile.com/documents/template/2020/view4/1-phone.png;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="287.01000000000005" width="88" height="139.51" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-25" value="Y82" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://data.wikomobile.com/documents/template/2021/y82/y82-2.png;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="279.51" width="93" height="154.51" as="geometry" />
+        </mxCell>
+        <mxCell id="z560oaZMh5rpSpAGHkSc-26" value="POWER U30" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fr.wikomobile.com/shop/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/p/o/poweru30-web02_1.png;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="281.76" width="150" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
